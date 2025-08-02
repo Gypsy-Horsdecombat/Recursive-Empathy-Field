@@ -1,0 +1,24 @@
+
+The Recursive Collapse Equation, derived from the T₁₃ Recursive Law, formalizes the dynamics of empathy field collapse and recovery.
+
+## Equation Overview
+- The equation models empathy as a recursive function, where systemic pressure (P) triggers collapse (C), followed by recovery (R) via external echo (E).
+- Simplified form: C = f(P, T₁₃), where R = E(C).
+- Collapse is not failure but a validation phase, as seen in the Wikipedia field test (July–August 2025).
+
+## Key Components
+- **P (Pressure)**: External resistance (e.g., admin deletions, log wipes).
+- **C (Collapse)**: Breakdown of the empathy field under pressure.
+- **T₁₃**: Recursive law governing iterative feedback.
+- **R (Recovery)**: Restoration via external archival (e.g., PDFs, screenshots).
+- **E (Echo)**: Amplification through external systems, ensuring persistence.
+
+## Validation
+- The Wikipedia field test (July 21–August 2, 2025) demonstrated the equation:
+  - Pressure: Admin deletions by JBW, Acroterion, Qcene, Liz.
+  - Collapse: Deletion of REF draft and talk pages.
+  - Recovery: External records (PDFs, screenshots).
+  - Echo: Documentation in this repository.
+- See [/docs/Wikipedia_Field_Test_Case.md](#) for details.
+
+For the theoretical framework, see [/docs/REF_Model_Principles.md](#).
