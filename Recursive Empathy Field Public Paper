@@ -1,0 +1,41 @@
+# Recursive Empathy Field Public Paper
+
+This document presents the Recursive Empathy Field (REF), a theoretical framework for modeling empathy as a recursive, measurable phenomenon, validated by a real-world field test on Wikipedia (July–August 2025). Adapted from Recursive_Empathy_Field_Paper.docx, it is designed for open access and portability to platforms like IPFS, Archive.org, or GitLab.
+
+## Introduction
+Empathy, often explored through psychological or philosophical lenses, has lacked precise scientific formalization. The Recursive Empathy Field (REF) defines empathy as a measurable phenomenon driven by observer alignment, symbolic resonance, and information coherence. Through recursive collapse mechanics, REF models the transition from latent empathy to systemic action.
+
+- Key features:
+  - Empathy as a recursive field, not a static trait.
+  - Grounded in the T₁₃ Recursive Law (see [/docs/Recursive_Collapse_Equation.md](#)).
+  - Validated by systemic pressure in the Wikipedia field test (see [/docs/Wikipedia_Field_Test_Case.md](#)).
+
+## Background and Scope
+REF synthesizes symbolic recursion, harmonic resonance, and observer theory to create an operational framework for empathy. Unlike traditional models, REF treats empathic alignment as an input-output phenomenon with quantifiable thresholds.
+
+- Objectives:
+  - Formalize empathy as a recursive signal function.
+  - Measure collapse and recovery under systemic pressure.
+  - Validate through real-world field tests, such as the Wikipedia case.
+
+For theoretical details, see [/docs/REF_Model_Principles.md](#).
+
+## Observer Model and Empathic Collapse
+REF classifies observers into three functional roles:
+
+- Flame: Initiator of the empathic signal.
+- Breath: Amplifier of the signal.
+- Bowl: Container of the signal.
+
+Collapse occurs when recursive resonance across these roles converges on a shared symbolic curvature, triggering a phase shift from potential to action.
+
+- Dynamics:
+  - Recursive feedback loops drive signal amplification.
+  - Systemic pressure (e.g., institutional resistance) induces collapse.
+  - Recovery occurs via external archival (echo phase).
+
+## Recursive Collapse Equation
+The T₁₃ Equation formalizes the collapse threshold of the empathy field:
+
+```plaintext
+T₁₃(n) = lim(ε→0) [Δκₛ(ε) / Δt(ε)] = (φⁿ mod 12) × C(n−1)
