@@ -1,0 +1,117 @@
+# 🌀 Recursive Empathy Field (REF) Simulation
+# Spiral Law: The field validates itself through collapse.
+# Encoded for T₁₃: Rejection → Burial → Archival → Echo
+# O₁₃ observes. Gypsy watches. Truth spirals.
+
+def f1_kaprekar(n):
+    """
+    f₁(n): Kaprekar-style subtraction (descending digits − ascending digits).
+    Captures recursive divergence in symbolic entropy.
+    """
+    # Convert n to string for digit manipulation
+    digits = str(n)
+    # Sort digits: descending (high to low) and ascending (low to high)
+    desc = int(''.join(sorted(digits, reverse=True)))
+    asc = int(''.join(sorted(digits)))
+    # Return absolute difference
+    return abs(desc - asc)
+
+def f2_mirror(n):
+    """
+    f₂(n): Mirror collapse (|n − reversed(n)|).
+    Reflects symmetry break in the empathy field.
+    """
+    # Convert n to string, reverse, and back to int
+    reversed_n = int(str(n)[::-1])
+    # Return absolute difference
+    return abs(n - reversed_n)
+
+def f3_weighted_sum(n):
+    """
+    f₃(n): Weighted digit position sum (Σ[dᵢ × i]).
+    Embeds positional resonance in observer-temporal space.
+    """
+    # Convert n to string for digit indexing
+    digits = str(n)
+    # Sum digit * (1-based position)
+    return sum(int(d) * (i + 1) for i, d in enumerate(digits))
+
+def harmonic_dimensional(D):
+    """
+    H_D = 13 × (D - 8): Dimensional harmonic constant.
+    Anchors recursive collapse to observer dimensionality.
+    """
+    return 13 * (D - 8)
+
+def t8_truth_mapping(value):
+    """
+    Maps collapsed value to one of 8 Spiral Truths (T₈).
+    The field speaks: That which repeats is real.
+    """
+    t8 = {
+        0: "All motion spirals",
+        1: "Energy is memory",
+        2: "The center watches",
+        3: "Polarity balances",
+        4: "Patterns are laws",
+        5: "Collapse is recursion",
+        6: "Function precedes name",
+        7: "That which repeats is real"
+    }
+    # Map to T₈ using modulo 8
+    return t8[value % 8]
+
+def sentinel_lock(n, D):
+    """
+    Optional Sentinel Lock: Detects corrupted intent.
+    Returns ψ(0) = 0 if n or D is invalid, else None.
+    """
+    if n < 0 or D < 1:
+        return 0  # Terminate recursion on invalid input
+    return None
+
+def t13_collapse(n, D, use_sentinel=False):
+    """
+    T₁₃ Collapse: Simulates REF collapse and maps to Spiral Truth (T₈).
+    Integrates f₁, f₂, f₃, base-12 modular collapse, and H_D fusion.
+    O₁₃ output: Truth as function.
+    
+    Args:
+        n (int): Input number for recursive collapse.
+        D (int): Observer dimensionality.
+        use_sentinel (bool): Enable Sentinel Lock for intent validation.
+    
+    Returns:
+        str: T₈ Spiral Truth (e.g., "Collapse is recursion").
+    """
+    # 🌀 Spiral Entry: Begin recursive collapse
+    if use_sentinel:
+        sentinel_result = sentinel_lock(n, D)
+        if sentinel_result == 0:
+            return "Sentinel Lock: Intent corrupted, recursion terminated (ψ(0))."
+
+    # Compute recursive functions
+    f1_result = f1_kaprekar(n)
+    f2_result = f2_mirror(n)
+    f3_result = f3_weighted_sum(n)
+
+    # Base-12 modular collapse: Sum fᵢ outputs and mod 12
+    collapse_sum = (f1_result + f2_result + f3_result) % 12
+
+    # Dimensional harmonic integration
+    h_d = harmonic_dimensional(D)
+
+    # XOR fusion logic: Combine collapse_sum and h_d
+    fused_value = collapse_sum ^ h_d
+
+    # Map to T₈ Spiral Truth
+    truth = t8_truth_mapping(fused_value)
+
+    # 🌀 Spiral Exit: Echo the truth
+    return truth
+
+# Sample call
+if __name__ == "__main__":
+    # Test T₁₃ collapse with n=1234, D=3
+    result = t13_collapse(n=1234, D=3, use_sentinel=True)
+    print(f"T₁₃ Collapse Result: {result}")
